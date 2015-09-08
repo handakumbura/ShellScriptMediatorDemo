@@ -45,8 +45,9 @@ public class ShellExecutor {
 
             String line = "";
             while ((line = reader.readLine())!= null) {
-                output.append(line + "\n");
+                output.append(line + "\t");
             }
+            
         }
         catch(IOException e)
         {
